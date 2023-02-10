@@ -1,0 +1,26 @@
+{
+    "name": "Tuto_capteur d'humidite-lecture",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "capteur-dhumidite-lecture": "github:daph21/capteur-dhumidite-lecture#4f41a9c4078b729cce3906d16611d4793f91ad83"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
